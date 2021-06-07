@@ -1,0 +1,36 @@
+{
+  "name": "taz-screeps",
+  "version": "1.0.0",
+  "description": "Taz's Screeps code",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "push-main": "rollup -c --environment DEST:main"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TazmamzaT/taz-screeps.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TazmamzaT/taz-screeps/issues"
+  },
+  "homepage": "https://github.com/TazmamzaT/taz-screeps#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^19.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.0",
+    "@types/screeps": "^3.2.2",
+    "rollup": "^2.51.0",
+    "rollup-plugin-clear": "^2.0.7",
+    "rollup-plugin-screeps": "^1.0.1",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "ts-node": "^10.0.0",
+    "tsconfig-paths": "^3.9.0",
+    "tslib": "^2.2.0",
+    "typescript": "^4.3.2"
+  },
+  "dependencies": {
+    "source-map": "~0.6.1"
+  }
+}
