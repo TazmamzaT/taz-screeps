@@ -1,8 +1,9 @@
 import _ from "lodash";
+import { roleBuilder } from "role.builder";
+import { roleHarvester } from "role.harvester";
+import { roleUpgrader } from "role.upgrader";
 import { ErrorMapper } from "utils/ErrorMapper";
-var roleHarvester = require('role.harvester');
-var roleBuilder = require('role.builder');
-var roleUpgrader = require('role.upgrader');
+
 
 declare global {
   /*
